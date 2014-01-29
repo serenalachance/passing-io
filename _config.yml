@@ -1,6 +1,8 @@
 name: Passing.io
 markdown: redcarpet
+permalink: pretty
 pygments: true
+cloudfront: https://dz3nfsp6ia2lr.cloudfront.net
 exclude: [
   Gemfile,
   Gemfile.lock,
