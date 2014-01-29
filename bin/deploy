@@ -1,0 +1,16 @@
+#!/bin/sh
+
+set -e
+
+if [ ! -d "_site" ]; then
+  echo 'need _site directory; run `bundle exec jekyll build`'
+  exit 1
+fi
+
+if [ ! $(which s3cmd) ]; then
+  echo "need s3cmd"
+  exit 1
+fi
+
+s3cmd sync --delete-removed _site/ s3://passing.io/
+s3cmd setacl --acl-public --recursive s3://passing.io/
