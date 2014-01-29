@@ -1,5 +1,5 @@
 source "https://rubygems.org"
 
-gem "github-pages"
-#gem "jekyll-sass"
+gem "jekyll"
+gem "jekyll-sass"
 gem "jekyll-slim"
