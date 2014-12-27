@@ -14,7 +14,7 @@
     1. General Advice
         1. Consider Context
         1. Dress Your Age
-        1. [#dont-embellish](Don't Embellish)
+        1. [Don't Embellish](#dont-embellish)
     1. Clothing
         1. Sizing Clothing
         1. Jackets
